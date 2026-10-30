@@ -3,8 +3,18 @@
 <p align="center"><b>Customizable Combat through Visual Interaction Proxies</b></p>
 
 <p align="center">
-  <a href="https://fight-world-model.github.io/"><img src="https://img.shields.io/badge/Project-Page-blue" alt="Project page"></a>
-  <a href="https://fight-world-model.github.io/media/paper.pdf"><img src="https://img.shields.io/badge/Paper-PDF-red" alt="Paper PDF"></a>
+  <a href="https://fight-world-model.github.io/">
+    <img src="https://img.shields.io/badge/Project-Page-blue" alt="Project page">
+  </a>
+  <a href="https://arxiv.org/abs/2610.40607">
+    <img src="https://img.shields.io/badge/arXiv-Abs-b31b1b?logo=arxiv" alt="arXiv Abs">
+  </a>
+  <a href="https://arxiv.org/pdf/2610.40607">
+    <img src="https://img.shields.io/badge/Paper-PDF-red?logo=adobeacrobatreader" alt="Paper PDF">
+  </a>
+  <a href="LICENSE">
+    <img src="https://img.shields.io/badge/License-Apache--2.0-green" alt="License">
+  </a>
 </p>
 
 <p align="center">
@@ -21,16 +31,16 @@ A protected fighter can react to a hit without losing health, while lifesteal da
 
 ## 📰 News
 
-- **[2026-10]** The [project page](https://fight-world-model.github.io/) and [paper](https://fight-world-model.github.io/media/paper.pdf) are available.
+- **[2026-10]** The [project page](https://fight-world-model.github.io/) and [paper](https://arxiv.org/abs/2610.40607) are available.
 
-## 🚀 Release roadmap
+## 🚀 Release Roadmap
 
 - [x] Project page
-- [x] Technical report: [PDF](https://fight-world-model.github.io/media/paper.pdf)
+- [x] Technical report
 - [ ] Inference code
 - [ ] Pretrained weights
 
-## Method
+## 🛠️ Method
 
 <p align="center">
   <img src="assets/framework.png" width="100%" alt="FWM architecture: an executable proxy engine, interaction proxy compilation, a video renderer, and appearance and identity binding">
@@ -38,5 +48,16 @@ A protected fighter can react to a hit without losing health, while lifesteal da
 
 The interaction proxy separately encodes attempted actions, brief hit reactions, and persistent health on a shared canvas and timeline. This separation lets the engine specify damage scaling, limited-hit immunity, lifesteal, and multi-stage skill mechanisms through the same conditioning format.
 
+---
 
+
+## 📄 Citation
+
+```bibtex
+@article{li2026fight,
+  title={Fight World Model: Customizable Combat through Visual Interaction Proxies},
+  author={Li, Jiahua and John, Zixu and Zhong, Tom and Wu, Fuping and Xu, Tianhao and Zhang, Ruicheng and Zhou, Jun and Xu, Zunnan},
+  journal={arXiv preprint arXiv:2610.40607},
+  year={2026}
+}
 
